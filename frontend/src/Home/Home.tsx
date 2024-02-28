@@ -1,3 +1,5 @@
+import Product from './Products/Products';
+import Orders from './Orders/Orders';
 function Home(){
     return(
         <div>
