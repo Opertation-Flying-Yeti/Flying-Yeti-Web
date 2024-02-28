@@ -15,13 +15,14 @@ const closeMenu = () => {
     <div className="grid-container">
             <header className="header">
                 <div className="brand">
-                    <button onClick="openMenu()">☰</button>
+                    <button onClick="openMenu">☰</button>
                     <a href="index.html">Flying Yeti</a>
                 </div>
                 <div className="header-links">
                     <a href="cart.html">Cart</a>
                     <a href="signin.html">Sign In</a>
                 </div>
+                </header>
     </div>
   );
 }
